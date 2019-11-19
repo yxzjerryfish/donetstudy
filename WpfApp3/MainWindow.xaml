@@ -6,7 +6,13 @@
         xmlns:local="clr-namespace:WpfApp3"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+    <Grid Background="AliceBlue">
+        <TextBlock Text="Hello,Windows 10"
+                   FontFamily="Times New Roman"
+                   FontSize="96"
+                   FontStyle="Italic"
+                   Foreground="Black"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Center"/>
     </Grid>
 </Window>
