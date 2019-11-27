@@ -24,5 +24,12 @@ namespace WpfApp3
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Button b = (Button)sender;
+            b.Content = "fff";
+            test.Text = "qq";
+        }
     }
 }

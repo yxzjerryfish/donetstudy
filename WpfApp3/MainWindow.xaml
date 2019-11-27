@@ -7,12 +7,13 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid Background="AliceBlue">
-        <TextBlock Text="Hello,Windows 10"
+        <TextBlock x:Name="test" Text="Hello,Windows 10"
                    FontFamily="Times New Roman"
                    FontSize="96"
                    FontStyle="Italic"
                    Foreground="Black"
                    HorizontalAlignment="Center"
                    VerticalAlignment="Center"/>
+        <Button Content="点击" HorizontalAlignment="Left" Margin="88,76,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
     </Grid>
 </Window>
