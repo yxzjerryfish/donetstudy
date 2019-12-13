@@ -4,3 +4,6 @@
 
 /.vs
 /WpfApp3/bin/Debug
+/WpfApp3/bin/Release
+/WpfApp3/obj/Release/TempPE
+/WpfApp3/obj/Release

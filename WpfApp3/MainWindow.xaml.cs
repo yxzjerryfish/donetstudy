@@ -20,9 +20,19 @@ namespace WpfApp3
     /// </summary>
     public partial class MainWindow : Window
     {
+        static int a = 0;
+
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Button b = (Button)sender;
+            b.Content = "fff";
+            a++;
+            test.Text = a.ToString();
         }
     }
 }
