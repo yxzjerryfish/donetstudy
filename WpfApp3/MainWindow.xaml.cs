@@ -20,6 +20,8 @@ namespace WpfApp3
     /// </summary>
     public partial class MainWindow : Window
     {
+        static int a = 0;
+
         public MainWindow()
         {
             InitializeComponent();
@@ -29,7 +31,8 @@ namespace WpfApp3
         {
             Button b = (Button)sender;
             b.Content = "fff";
-            test.Text = "qq";
+            a++;
+            test.Text = a.ToString();
         }
     }
 }
