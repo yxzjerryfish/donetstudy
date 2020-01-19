@@ -61,7 +61,7 @@
 
         </StackPanel>
 
-        <Viewport3D Focusable="true" Name="myViewport3D" ClipToBounds="true" Grid.Column="1" Grid.Row="0">
+        <Viewport3D Focusable="true" Name="myViewport3D" ClipToBounds="true" Grid.Row="0" Margin="50,-9,70,10" Grid.ColumnSpan="2">
             <Viewport3D.Camera>
                 <PerspectiveCamera
                     Position="0,0,3.0"
